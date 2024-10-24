@@ -20,7 +20,7 @@ class LocationSelectController extends GetxController{
   RxString currentCountry = ''.obs;
   Location location = Location();
   bool isExisting = false;
-  final String apiKey = 'AIzaSyA6v3dj_6xsKvzwTmF0F8J_OEg5JylaLFk';
+  final String apiKey = 'Your Maps API Key Here';
 
   GoogleMapController? mapController;
 

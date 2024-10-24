@@ -15,7 +15,7 @@ class LocationListScreen extends StatefulWidget {
 class _LocationListScreenState extends State<LocationListScreen> {
   var h = 0.0;
   var w = 0.0;
-  final apiKey = 'AIzaSyA6v3dj_6xsKvzwTmF0F8J_OEg5JylaLFk';
+  final apiKey = 'Your Maps API Key Here';
   final TextEditingController searchController = TextEditingController();
   final List<Map<String, dynamic>> places = [];
   bool isLoading = false;
